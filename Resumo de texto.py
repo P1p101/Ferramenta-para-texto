@@ -108,7 +108,7 @@ def processar_url(url, idioma='pt', nivel_detalhamento=20):
         print(f"Erro ao processar URL: {e}")
 
 # URL do site a ser processado
-url = 'https://dc.fandom.com/pt-br/wiki/Talia_al_Ghul_(Terra_Principal)'
+url = 'INSIRA O LINK DO SITE AQUI'
 idioma = 'pt'  # Idioma para tradução, 'pt' para manter em português
 nivel_detalhamento = 20  # Número de frases no resumo
 
