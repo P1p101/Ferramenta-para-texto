@@ -64,7 +64,7 @@ def gerar_resumo(texto, url_pagina, num_frases=20):
     imagens = soup.find_all('img')
     imagens_html = ''
     for idx, img in enumerate(imagens):
-        if idx >= 1 and idx <= 2:  # Captura da segunda até a quarta imagem (índices 1, 2 e 3)
+        if idx >= 1 and idx <= 2:  
             imagem_url = img['src']
             imagens_html += f"<div style='display:inline-block; margin-right:50px;'><img src='{imagem_url}' alt='Imagem' style='display:block; margin:auto; width:300px; height:400px;'></div>"
 
